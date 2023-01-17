@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+  "baseUrl": ".",
+  "paths": {
+    "@client/*": ["packages/client/src/*"],
+    "@admin/*": ["packages/admin/src/*"],
+    "@common/*": ["packages/common/*"]
+    }
+  }
+}
