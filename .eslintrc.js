@@ -17,7 +17,7 @@ module.exports = {
      * Eslint config
      */
 
-    // eslint-disable-next-line sort-keys
+    'no-unused-vars': 'warn',
     'camelcase': 'warn',
     'consistent-this': 'warn',
     'line-comment-position': 'warn',
@@ -25,9 +25,6 @@ module.exports = {
     'no-useless-constructor': 'warn',
     'prefer-rest-params': 'warn',
     'prefer-spread': 'warn',
-
-    /* Automatically fixable */
-    // eslint-disable-next-line sort-keys
     'arrow-body-style': 'warn',
     'eqeqeq': 'warn',
     'lines-between-class-members': 'warn',
@@ -49,8 +46,6 @@ module.exports = {
      * Vue config
      */
 
-    /* Automatically fixable */
-    // eslint-disable-next-line sort-keys
     'vue/component-tags-order': [
       'warn',
       {
@@ -70,15 +65,12 @@ module.exports = {
       },
     ],
     'vue/max-attributes-per-line': 'off',
-
-    // eslint-disable-next-line sort-keys
     'vue/multi-word-component-names': 'off',
 
     /**
      * Prettier config
      */
 
-    // eslint-disable-next-line sort-keys
     'prettier/prettier': [
       'warn',
       {

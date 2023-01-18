@@ -28,6 +28,13 @@ export function configFactory(mode, root, src, dist, port) {
     server: isDev
       ? {
           port,
+          proxy: {
+            '/api': {
+              target: 'http://127.0.0.1:4523/m1/1929777-0-default',
+              changeOrigin: true,
+              rewrite: (path) => path.replace(/^\/api/, ''),
+            },
+          },
         }
       : undefined,
   };

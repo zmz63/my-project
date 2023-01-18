@@ -1,5 +1,5 @@
 <script setup></script>
 
 <template>
-  <div>test2</div>
+  <div>另一个页面</div>
 </template>

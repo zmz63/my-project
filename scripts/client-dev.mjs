@@ -7,7 +7,7 @@ const env = 'development';
 process.env.NODE_ENV = env;
 
 const server = await createServer(
-  configFactory(env, clientPath, clientSrcPath, clientDistPath, 8080)
+  configFactory(env, clientPath, clientSrcPath, clientDistPath, 8081)
 );
 await server.listen();
 server.printUrls();

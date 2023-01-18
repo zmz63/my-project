@@ -27,5 +27,8 @@ watchEffect(() => {
   width: 100vw;
   height: 100vh;
   overflow: hidden;
+  .main-container {
+    flex-grow: 1;
+  }
 }
 </style>

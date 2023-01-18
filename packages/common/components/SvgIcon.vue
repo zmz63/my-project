@@ -1,6 +1,4 @@
 <script setup>
-import { defineProps } from 'vue';
-
 const props = defineProps({
   name: {
     type: String,
@@ -11,7 +9,7 @@ const props = defineProps({
 
 <template>
   <svg class="svg-icon">
-    <use :xlink-href="`#icon-${props.name}`" />
+    <use :xlink:href="`#icon-${props.name}`" />
   </svg>
 </template>
 
